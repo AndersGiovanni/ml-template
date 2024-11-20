@@ -1,23 +1,14 @@
-<a href="https://github.com/alexandrainst/{{ cookiecutter.project_name }}">
-<img
-    src="https://filedn.com/lRBwPhPxgV74tO0rDoe8SpH/alexandra/alexandra-logo.jpeg"
-	width="239"
-	height="175"
-	align="right"
-/>
-</a>
-
 # {{ cookiecutter.project_name | replace("_", " ") | title }}
 
 {{ cookiecutter.project_description }}
 
 ______________________________________________________________________
-[![Code Coverage](https://img.shields.io/badge/Coverage-0%25-red.svg)](https://github.com/alexandrainst/{{cookiecutter.project_name}}/tree/main/tests)
+[![Code Coverage](https://img.shields.io/badge/Coverage-0%25-red.svg)](https://github.com/andersgiovanni/{{cookiecutter.project_name}}/tree/main/tests)
 {% if cookiecutter.open_source == 'y' -%}
-[![Documentation](https://img.shields.io/badge/docs-passing-green)](https://alexandrainst.github.io/{{cookiecutter.project_name}})
-[![License](https://img.shields.io/github/license/alexandrainst/{{cookiecutter.project_name}})](https://github.com/alexandrainst/{{cookiecutter.project_name}}/blob/main/LICENSE)
-[![LastCommit](https://img.shields.io/github/last-commit/alexandrainst/{{cookiecutter.project_name}})](https://github.com/alexandrainst/{{cookiecutter.project_name}}/commits/main)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/alexandrainst/{{cookiecutter.project_name}}/blob/main/CODE_OF_CONDUCT.md)
+[![Documentation](https://img.shields.io/badge/docs-passing-green)](https://andersgiovanni.github.io/{{cookiecutter.project_name}})
+[![License](https://img.shields.io/github/license/andersgiovanni/{{cookiecutter.project_name}})](https://github.com/andersgiovanni/{{cookiecutter.project_name}}/blob/main/LICENSE)
+[![LastCommit](https://img.shields.io/github/last-commit/andersgiovanni/{{cookiecutter.project_name}})](https://github.com/andersgiovanni/{{cookiecutter.project_name}}/commits/main)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/andersgiovanni/{{cookiecutter.project_name}}/blob/main/CODE_OF_CONDUCT.md)
 {% endif %}
 Developer:
 
@@ -132,6 +123,6 @@ for the repository (can be enabled on Github in the repository settings).
 Code Spaces is a new feature on Github, that allows you to develop on a project
 completely in the cloud, without having to do any local setup at all. This repo comes
 included with a configuration file for running code spaces on Github. When hosted on
-`alexandrainst/{{ cookiecutter.project_name }}` then simply press the `<> Code` button
+`andersgiovanni/{{ cookiecutter.project_name }}` then simply press the `<> Code` button
 and add a code space to get started, which will open a VSCode window directly in your
 browser.

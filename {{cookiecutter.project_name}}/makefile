@@ -72,7 +72,7 @@ add-repo-to-git:
 		git commit --quiet -m "Initial commit"; \
 	fi
 	@if [ "$(shell git remote)" = "" ]; then \
-		git remote add origin git@github.com:alexandrainst/{{ cookiecutter.project_name }}.git; \
+		git remote add origin git@github.com:andersgiovanni/{{ cookiecutter.project_name }}.git; \
 	fi
 
 install-pre-commit:  ## Install pre-commit hooks
@@ -84,7 +84,7 @@ docs:  ## View documentation locally
 
 publish-docs:  ## Publish documentation to GitHub Pages
 	@uv run mkdocs gh-deploy
-	@echo "Updated documentation website: https://alexandrainst.github.io/ugens_elev"
+	@echo "Updated documentation website: https://andersgiovanni.github.io/ugens_elev"
 
 test:  ## Run tests
 	@uv run pytest && uv run readme-cov

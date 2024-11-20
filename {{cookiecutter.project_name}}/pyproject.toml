@@ -15,8 +15,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/alexandrainst/{{cookiecutter.project_name}}"
-Issues = "https://github.com/alexandrainst/{{cookiecutter.project_name}}/issues"
+Repository = "https://github.com/andersgiovanni/{{cookiecutter.project_name}}"
+Issues = "https://github.com/andersgiovanni/{{cookiecutter.project_name}}/issues"
 
 [project.license]
 {% if cookiecutter.open_source != 'y' -%}
